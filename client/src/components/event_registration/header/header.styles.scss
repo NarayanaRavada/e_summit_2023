@@ -1,0 +1,49 @@
+.reg-title {
+    height: 100%;
+    position: relative;
+    font-size: calc(24px + 8vw);
+    font-variant: small-caps;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: "Belleza", sans-serif;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.bg {
+    width: 100%;
+    padding: 100px;
+    background: url('../../../assets/images/event_reg/backkk.jpg');
+    background-size: cover;
+
+    svg {
+      display: none;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      position: absolute;
+      top: 0; 
+      border-radius: 5px;
+    }
+    
+    rect {
+      fill: none;
+      stroke: #fff;
+      stroke-width: 2;
+      stroke-dasharray: 422, 0;
+      transition: all 0.35s linear;
+    }
+
+    :hover rect {
+      stroke-width: 5;
+      stroke-dasharray: 15, 310;
+      stroke-dashoffset: 48;
+      transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+}

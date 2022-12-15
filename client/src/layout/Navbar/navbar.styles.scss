@@ -1,0 +1,21 @@
+.nav {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 1;
+
+    .logo {
+        height: 30px;
+        filter: invert(1);
+    }
+
+    .btn {
+        width: 100px;
+        color: #eee;
+        font-weight: 600;
+    }
+}

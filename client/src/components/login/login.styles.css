@@ -1,0 +1,35 @@
+.login {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 40px;
+    padding-top: 10px;
+}
+
+.login form label {
+    display: block;
+    margin-top: 20px;
+    color: lightslategray;
+}
+
+.login form input {
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.login button {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
